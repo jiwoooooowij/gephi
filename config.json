@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "http://dh.aks.ac.kr/~jisun/images/ku.gif ",
+    "link": "http://dh.aks.ac.kr/~jisun/edu/index.php/DataHumanities21-2 ",
+    "text": "정지우"
+  },
+  "text": {
+    "more": "sigma.js export는 Group Selector 기능에 문제가 있는 플러그인입니다. (아무 효과도 없음)\n이미지 url을 가진 칼럼을 지정해주는 것.\nReplace node ids with~ 결과물 빨라진다고 하는데 별 차이는 없다.",
+    "intro": "한강 이남 고등학교 교가에 등장한 산을 분석하였습니다.",
+    "title": "한강 이남 고등학교 교가에 등장한 산 분석"
+  },
+  "legend": {
+    "edgeLabel": "relation",
+    "colorLabel": "class",
+    "nodeLabel": "한강이남 고등학교 교가정보"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
